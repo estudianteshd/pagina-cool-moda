@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Moda | Catálogo Interactivo</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="logo">COOL<span>MODA</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#seccion-jeans">Jeans</a></li>
+                <li><a href="#seccion-poleras">Poleras</a></li>
+                <li><a href="#seccion-shorts">Shorts</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero / Portada Principal -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">Nueva Colección 2026</span>
+            <h1>REDEFINE TU <em>ESTILO</em></h1>
+            <p>Selecciona una categoría de abajo o haz clic en las imágenes para ver cada apartado exclusivo.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CATEGORÍAS PRINCIPALES (Con enlaces directos haciendo clic en la imagen) -->
+    <section class="categories">
+        <h2 class="section-title">Explora por <span>Categorías</span></h2>
+        <div class="grid-categories">
+            
+            <!-- Clic aquí lleva al apartado de Jeans -->
+            <a href="#seccion-jeans" class="category-card" style="background-image: url('jean1.jpg'); text-decoration: none;">
+                <div class="card-overlay"></div>
+                <div class="card-info">
+                    <h3>Jeans & Pantalones</h3>
+                    <p>Ver apartado completo &rarr;</p>
+                </div>
+            </a>
+
+            <!-- Clic aquí lleva al apartado de Poleras -->
+            <a href="#seccion-poleras" class="category-card" style="background-image: url('poleras1.jpg'); text-decoration: none;">
+                <div class="card-overlay"></div>
+                <div class="card-info">
+                    <h3>Poleras & Blusas</h3>
+                    <p>Ver apartado completo &rarr;</p>
+                </div>
+            </a>
+
+            <!-- Clic aquí lleva al apartado de Shorts -->
+            <a href="#seccion-shorts" class="category-card" style="background-image: url('shor.jpg'); text-decoration: none;">
+                <div class="card-overlay"></div>
+                <div class="card-info">
+                    <h3>Shorts Exclusivos</h3>
+                    <p>Ver apartado completo &rarr;</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ================= APARTADO DE JEANS ================= -->
+    <section id="seccion-jeans" class="products-section">
+        <h2 class="section-title">Apartado: <span>Jeans</span></h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Exclusivo</span>
+                    <img src="jean1.jpg" alt="Jean con Pedrería">
+                </div>
+                <div class="product-details">
+                    <h4>Jean con Pedrería Fina</h4>
+                    <p class="price">Bs. 90</p>
+                    <a href="https://wa.me/59176105213?text=Hola,%20me%20interesa%20el%20Jean%20con%20Pedrería" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Tendencia</span>
+                    <img src="jean2.jpg" alt="Jean Botonera">
+                </div>
+                <div class="product-details">
+                    <h4>Jean Botonera Estilizada</h4>
+                    <p class="price">Bs. 100</p>
+                    <a href="https://wa.me/59172939873?text=Hola,%20me%20interesa%20el%20Jean%20Botonera" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= APARTADO DE POLERAS ================= -->
+    <section id="seccion-poleras" class="products-section bg-light">
+        <h2 class="section-title">Apartado: <span>Poleras & Tops</span></h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Algodón Peruano</span>
+                    <img src="poleras1.jpg" alt="Poleras Columbia">
+                </div>
+                <div class="product-details">
+                    <h4>Poleras Estilo Columbia</h4>
+                    <p class="price">Bs. 100</p>
+                    <a href="https://wa.me/59176105213?text=Hola,%20me%20interesan%20las%20poleras%20Columbia" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Variedad</span>
+                    <img src="cpoleraas2.jpg" alt="Set Poleras">
+                </div>
+                <div class="product-details">
+                    <h4>Set Poleras Básicas</h4>
+                    <p class="price">Bs. 100</p>
+                    <a href="https://wa.me/59172939873?text=Hola,%20me%20interesan%20los%20sets%20de%20poleras" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Nuevo</span>
+                    <img src="poleras3.jpg" alt="Polera Cuello Polo">
+                </div>
+                <div class="product-details">
+                    <h4>Polera Casual Cuello Polo</h4>
+                    <p class="price">Bs. 90</p>
+                    <a href="https://wa.me/59176105213?text=Hola,%20me%20interesa%20la%20polera%20cuello%20polo" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Juvenil</span>
+                    <img src="poleras4.jpg" alt="Polera Columbia Classic">
+                </div>
+                <div class="product-details">
+                    <h4>Polera Columbia Classic</h4>
+                    <p class="price">Bs. 100</p>
+                    <a href="https://wa.me/59172939873?text=Hola,%20me%20interesa%20la%20polera%20Columbia%20Classic" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Texturizada</span>
+                    <img src="poleras5.jpg" alt="Poleras Waffle">
+                </div>
+                <div class="product-details">
+                    <h4>Poleras Waffle Z-Men</h4>
+                    <p class="price">Bs. 100</p>
+                    <a href="https://wa.me/59176105213?text=Hola,%20me%20interesan%20las%20poleras%20Waffle" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Casual</span>
+                    <img src="polera.jpg" alt="Polera Gris">
+                </div>
+                <div class="product-details">
+                    <h4>Polera Texturizada Gris</h4>
+                    <p class="price">Bs. 100</p>
+                    <a href="https://wa.me/59172939873?text=Hola,%20me%20interesa%20la%20polera%20gris" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= APARTADO DE SHORTS ================= -->
+    <section id="seccion-shorts" class="products-section">
+        <h2 class="section-title">Apartado: <span>Shorts</span></h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="product-img">
+                    <span class="tag">Verano</span>
+                    <img src="shor.jpg" alt="Short de Jeans">
+                </div>
+                <div class="product-details">
+                    <h4>Short Denim Estilo Corset</h4>
+                    <p class="price">Bs. 85</p>
+                    <a href="https://wa.me/59176105213?text=Hola,%20me%20interesa%20el%20Short%20Denim" class="btn-card-ws" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Contacto por WhatsApp -->
+    <section id="contacto" class="whatsapp-section bg-light">
+        <div class="whatsapp-container">
+            <h2>¿Tienes alguna duda o quieres hacer un pedido?</h2>
+            <p>Escríbenos directamente a cualquiera de nuestras líneas:</p>
+            <div class="ws-buttons-group">
+                <a href="https://wa.me/59176105213?text=Hola%20Cool%20Moda,%20quisiera%20más%20información" class="ws-btn" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Línea 1 (+591 76105213)
+                </a>
+                <a href="https://wa.me/59172939873?text=Hola%20Cool%20Moda,%20quisiera%20más%20información" class="ws-btn ws-btn-alt" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Línea 2 (+591 72939873)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón Flotante con Menú (CSS Puro) -->
+    <div class="floating-whatsapp-container">
+        <div class="floating-menu">
+            <a href="https://wa.me/59176105213" target="_blank"><i class="fa-brands fa-whatsapp"></i> 76105213</a>
+            <a href="https://wa.me/59172939873" target="_blank"><i class="fa-brands fa-whatsapp"></i> 72939873</a>
+        </div>
+        <div class="floating-ws-btn">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">COOL<span>MODA</span></div>
+            <p class="fashion-quote">
+                «La moda es la mejor herramienta para explicar quién eres sin tener que hablar.»
+            </p>
+            <span class="author-quote">— Rachel Zoe</span>
+            <hr class="footer-divider">
+            <p class="copyright">&copy; 2026 Cool Moda - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
